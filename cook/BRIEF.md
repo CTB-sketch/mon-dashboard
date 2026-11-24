@@ -30,6 +30,7 @@ Mise en page 9,5 · Typographie 9,5 · Couleur 9,5 · Clarté de conversion 9,5 
 - Pages générées par `src/build.py` (gabarit commun) pour garantir des en-têtes/pieds identiques ; seul `www/` part en ligne.
 
 ## Arbitrages du 2026-11-24 (après lecture de Notion)
-- Couleurs : bleu profond + orange du badge + ivoire (Notion, DA du 16/11), à la place de l'or. Teinte exacte du badge non fournie : orange #E07B24 provisoire.
-- Stages : tarifs de la demande du jour conservés (315 / 280 / 545 €). Notion indique 220 € (4 × 1 h 30, 3 à 4 élèves) : écart à trancher.
+- Couleurs : bleu profond + orange du badge + ivoire (Notion, DA du 16/11), à la place de l'or. Charte officielle fournie le 24/11 : bleu pétrole #154C60, orange #E87524, blanc cassé #F4F3EF, blanc pur sur fond sombre. Symbole du logo redessiné en SVG (en-tête, favicon, image de partage).
+- Stages : tarifs de la demande du jour conservés (315 / 280 / 545 €). Confirmés par le client le 24/11 (Notion indique encore 220 € : à mettre à jour).
 - Ajouts : signature « La maîtrise vient de l'entraînement », 20 ans d'expérience, article explication linéaire (texte Notion), téléphone 06 84 29 63 00 + WhatsApp.
+- Calendly : https://calendly.com/coachtonbac/appel-de-reservation (durée 45 min non vérifiée côté Calendly).

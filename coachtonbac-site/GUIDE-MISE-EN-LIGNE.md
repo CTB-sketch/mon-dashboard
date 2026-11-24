@@ -3,7 +3,7 @@
 **Fichier à récupérer :** `coachtonbac-www.zip` (le contenu du dossier `www/`). C'est tout le site.
 
 ## Avant l'envoi (10 min)
-1. **Lien Calendly** : ouvrez `www/rendez-vous.html`, remplacez les 2 occurrences de `https://calendly.com/VOTRE-LIEN/45min` par le lien de votre événement de 45 min (Calendly > l'événement > Copier le lien). L'agenda s'affiche alors directement dans la page.
+1. **Lien Calendly** : déjà en place (`https://calendly.com/coachtonbac/appel-de-reservation`). Vérifiez seulement dans Calendly que cet événement dure bien 45 min, comme annoncé sur le site.
 2. **Boîtes mail** : dans le panel LWS, créez `contact@coachtonbac.fr` (réception) et `site@coachtonbac.fr` (envoi du formulaire). Pour d'autres adresses, modifiez les 2 lignes en haut de `www/contact.php`.
 3. **Mentions légales** : complétez les zones surlignées en jaune dans `www/mentions-legales.html` (statut, SIRET, adresse) et vérifiez l'adresse de LWS.
 4. **Photo (recommandé)** : déposez `bruno-bertin.jpg` (carré ou portrait, ~600 px) dans `www/assets/img/` et suivez le commentaire dans `www/a-propos.html`.

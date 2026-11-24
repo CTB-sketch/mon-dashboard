@@ -55,6 +55,15 @@ WA_HREF = "https://wa.me/33684296300"
 SIGNATURE = "La maîtrise vient de l’entraînement"
 
 
+def mark(c1, c2="#E87524", cls="brand-mark"):
+    return (f'<svg class="{cls}" viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="none" stroke-linecap="round">'
+            f'<path d="M19.53 5.26A29.5 29.5 0 0 0 19.53 58.74" stroke="{c2}" stroke-width="3.6"/>'
+            f'<path d="M37.12 2.95A29.5 29.5 0 0 1 54.6 13.04M54.6 50.96A29.5 29.5 0 0 1 37.12 61.05" stroke="{c2}" stroke-width="1.8"/>'
+            f'<path d="M44.5 10.35A25 25 0 1 0 44.5 53.65" stroke="{c1}" stroke-width="2.8"/>'
+            f'<g stroke-width="2.6"><path d="M46 20H24.5a3.5 3.5 0 0 0 0 7H44" stroke="{c1}" opacity=".75"/>'
+            f'<path d="M20 28.5h21.5a3.5 3.5 0 0 1 0 7H22" stroke="{c2}"/>'
+            f'<path d="M46 37H24.5a3.5 3.5 0 0 0 0 7H44" stroke="{c1}"/></g></svg>')
+
 def header(root, nav):
     cur = ' aria-current="page"'
     links = "".join(
@@ -66,8 +75,9 @@ def header(root, nav):
   <div class="wrap">
     <nav class="nav" aria-label="Navigation principale">
       <a class="brand" href="{root}index.html" aria-label="Coach Ton Bac, accueil">
-        <span class="brand-name">Coach Ton Bac</span>
-        <span class="brand-sub">par Bruno Bertin</span>
+        {mark("#FFFFFF")}
+        <span class="brand-text"><span class="brand-name">Coach <span class="brand-accent">Ton Bac</span></span>
+        <span class="brand-sub">par Bruno Bertin</span></span>
       </a>
       <ul class="nav-links">{links}</ul>
       <a class="btn btn-primary nav-cta" href="{root}rendez-vous.html">Rendez-vous gratuit</a>
@@ -142,7 +152,7 @@ def page(meta, body, root, rel_url):
 <title>{title}</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{canonical}">{noindex}
-<meta name="theme-color" content="#0A1C35">
+<meta name="theme-color" content="#0B2E3A">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_FR">
 <meta property="og:site_name" content="Coach Ton Bac">
