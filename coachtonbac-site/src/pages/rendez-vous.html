@@ -1,0 +1,66 @@
+<!--
+title: Réserver le rendez-vous gratuit de 45 minutes · Coach Ton Bac
+description: Choisissez un créneau pour votre premier rendez-vous gratuit de 45 minutes avec Bruno Bertin, ancien examinateur au bac de français. Sans engagement.
+nav: rdv
+-->
+<section class="page-hero compact on-dark">
+  <div class="wrap">
+    <p class="crumbs"><a href="{{root}}index.html">Accueil</a> · Rendez-vous</p>
+    <p class="hero-proof">{{icon:seal}}<span>Avec Bruno Bertin, ancien examinateur au bac de français</span></p>
+    <h1>Réservez vos 45 minutes offertes</h1>
+    <p class="lead">Choisissez votre créneau ci-dessous. Sans engagement.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap booking">
+    <div>
+      <h2>Ce qui se passe pendant ces 45 minutes</h2>
+      <ul class="checks">
+        <li>{{icon:check}}<div><strong>Nous faisons le point</strong><span>Les résultats de votre enfant, l'épreuve qui l'inquiète, l'échéance qui approche.</span></div></li>
+        <li>{{icon:check}}<div><strong>Un premier diagnostic</strong><span>Si vous avez une copie récente, gardez-la sous la main : je vous montre ce qu'un correcteur y voit.</span></div></li>
+        <li>{{icon:check}}<div><strong>Une proposition claire</strong><span>Cours individuels, stage des vacances, ou les deux. Vous décidez ensuite, librement.</span></div></li>
+      </ul>
+      <p class="cta-note">Cours individuels : 70 €/h. Stages : écrit 315 €, oral 280 €, combiné 545 €.</p>
+    </div>
+
+    <!-- LIEN CALENDLY : remplacez la valeur de data-calendly ET le href du bouton ci-dessous par le lien de votre événement de 45 minutes
+         (Calendly > votre événement > Copier le lien), par exemple https://calendly.com/votre-nom/45min -->
+    <div class="calendly-box" data-calendly="https://calendly.com/VOTRE-LIEN/45min">
+      <div class="calendly-fallback">
+        <h3>Ouvrir l'agenda de réservation</h3>
+        <p>L'agenda s'ouvre dans un nouvel onglet. Choisissez un créneau de 45 minutes, vous recevez une confirmation par e-mail.</p>
+        <a class="btn btn-gold" href="https://calendly.com/VOTRE-LIEN/45min" target="_blank" rel="noopener">Choisir mon créneau {{icon:arrow}}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-paper" id="contact">
+  <div class="wrap narrow">
+    <div class="section-head">
+      <p class="kicker">Une question avant de réserver ?</p>
+      <h2>Écrivez-moi</h2>
+      <p class="lead">Je vous réponds personnellement. Vous pouvez aussi écrire à <a href="mailto:contact@coachtonbac.fr">contact@coachtonbac.fr</a>.</p>
+    </div>
+    <p data-form-msg hidden role="status"></p>
+    <form class="form" action="{{root}}contact.php" method="post">
+      <div class="field"><label for="f-nom">Votre nom</label><input id="f-nom" name="nom" type="text" autocomplete="name" required maxlength="100"></div>
+      <div class="field"><label for="f-email">Votre e-mail</label><input id="f-email" name="email" type="email" autocomplete="email" required maxlength="150"></div>
+      <div class="field"><label for="f-besoin">L'épreuve qui vous concerne</label>
+        <select id="f-besoin" name="besoin">
+          <option>Bac de français, écrit</option>
+          <option>Bac de français, oral</option>
+          <option>Philosophie</option>
+          <option>Grand Oral</option>
+          <option>Stage des vacances</option>
+          <option>Autre question</option>
+        </select>
+      </div>
+      <div class="field"><label for="f-message">Votre message</label><textarea id="f-message" name="message" required maxlength="3000"></textarea></div>
+      <div class="hp" aria-hidden="true"><label for="f-site">Ne pas remplir</label><input id="f-site" name="site" type="text" tabindex="-1" autocomplete="off"></div>
+      <label class="consent"><input type="checkbox" name="consent" value="1" required><span>J'accepte que mes informations soient utilisées pour répondre à ma demande. Elles ne sont ni revendues ni utilisées à d'autres fins (<a href="{{root}}confidentialite.html">confidentialité</a>).</span></label>
+      <button class="btn btn-gold" type="submit">Envoyer mon message {{icon:arrow}}</button>
+    </form>
+  </div>
+</section>
