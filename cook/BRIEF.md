@@ -3,6 +3,8 @@
 Début : 2026-11-24. Livrable : dossier statique prêt pour LWS (`coachtonbac-site/www/`) + guide.
 
 ## Cible
+Objectif chiffré : 20 rendez-vous gratuits par mois (fixé par le client le 2026-11-24).
+Lieu : cours essentiellement en visio, présentiel possible dans le secteur de Moulins (03).
 Site vitrine orienté conversion : un seul objectif par page, réserver le premier rendez-vous gratuit de 45 min (Calendly).
 Public décideur : parents CSP+ exigeants. Marque mère « Bruno Bertin », gamme élèves « Coach Ton Bac ».
 Argument central visible dès l'accueil : lecture « chirurgicale » des copies, passé d'examinateur et de membre de jury au bac de français.

@@ -86,7 +86,7 @@ def footer(root, nav):
     <div class="footer-grid">
       <div>
         <p class="brand-name" style="margin:0 0 6px">Coach Ton Bac</p>
-        <p>La gamme élèves de <strong>Bruno Bertin</strong>, ancien examinateur et membre de jury au bac de français. Préparation au bac de français, à la philosophie et au Grand Oral, en Première et en Terminale.</p>
+        <p>La gamme élèves de <strong>Bruno Bertin</strong>, ancien examinateur et membre de jury au bac de français. Préparation au bac de français, à la philosophie et au Grand Oral, en Première et en Terminale. En visio partout en France, en présentiel dans le secteur de Moulins (Allier).</p>
         <a class="btn btn-gold" href="{root}rendez-vous.html">{CTA_LABEL}</a>
       </div>
       <div>
@@ -193,7 +193,8 @@ JSONLD_HOME = {
     "@type": "EducationalOrganization",
     "name": "Coach Ton Bac",
     "url": SITE + "/",
-    "description": "Cours particuliers et stages de préparation au bac de français (écrit et oral), à la philosophie et au Grand Oral, pour les élèves de Première et de Terminale.",
+    "description": "Cours particuliers et stages de préparation au bac de français (écrit et oral), à la philosophie et au Grand Oral, pour les élèves de Première et de Terminale. En visio partout en France, en présentiel dans le secteur de Moulins (Allier).",
+    "areaServed": [{"@type": "Country", "name": "France"}, {"@type": "City", "name": "Moulins"}],
     "founder": {"@type": "Person", "name": "Bruno Bertin", "jobTitle": "Ancien examinateur et membre de jury au bac de français"},
     "makesOffer": [
         {"@type": "Offer", "name": "Cours individuel", "price": "70", "priceCurrency": "EUR", "unitText": "heure"},
